@@ -19,7 +19,7 @@
 
 <body>
     <nav class="nav">
-        <div class="burger" style="background: #999999;">
+        <div class="burger">
             <div class="burger__patty"></div>
         </div>
         <ul class="nav__list">
@@ -29,27 +29,50 @@
             <li class="nav__item"> <a href="contact.html" class="nav__link c-white"><i class="fa fa-envelope" aria-hidden="true"></i> <span>Contact</span></a> </li>
         </ul>
     </nav>
-    <!--------------Intro Part Starts------------------>
+    <div id="fb-root"></div>
+    <!--
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    -->
 
-    <div class="container-fluid home-top"> </div>
-    <div class="container-fluid home">
-        <div id="staggered-test" class="row">
-            <div class="col-md-4 col-sm-5 col-xs-12">
-                <div class="pk-logo"><a href="index.html"><img src="images/logo.png" alt="Asim Habib"></a> </div>
-                <div class="about animated fadeInLeft">
-                    <p>Hi, my name is</p>
-                    <h1>Asim Habib</h1>
-                    <p>I'm a <span class="red-content">Web Developer</span> based in <span class="red-content">Barrie, Ontario</span>.
-                        <!-- Currently I am working as a <span class="red-content">Web Developer</span> at Napoleon. --> <br />I hope you find my work valuable.
-                    </p>
-                    <p><a class="waves-effect waves-light learn" href="about.html">Learn More</a><a class="waves-effect waves-light" href="portfolio.html">See My Work </a></p>
-                </div>                
-				<footer><small>2022- AH Web Development</small> </footer>
+
+    <div class="container-fluid top con">
+        <div class="col-md-2 col-sm-2">
+            <div class="pv-logo"><a href="index.html"><img src="images/logo.png" alt="Asim Habib"></a></div>
+        </div>
+        <div class="col-md-8 col-sm-8 animated fadeIn"> </div>
+        <div class="col-md-2 col-sm-2"></div>
+    </div>
+    <div class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 animated fadeIn">
+                    <!--			<p><i class="fa fa-thumbs-up" aria-hidden="true"></i></p>-->
+                    <h1>Thanks for checking out my portfolio!</h1>
+                    <h2>Feel free to reach out via the links below.</h2>
+                </div>
             </div>
-            <div class="col-md-8 col-sm-7 banner"> </div>
         </div>
     </div>
-    <!--------------Intro Part Ends------------------>
+    <div class="container media">
+        <div class="row">
+            <div class="col-md-12 animated fadeIn">
+                <p><img src="images/email.png" alt="email"></p>
+                <ul>
+                    <li><a href="https://github.com/asimhabib" target="_blank"> <i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/asimhabib/" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY st0 "fill:#E31E27;">
+	<!ENTITY st1 "fill:#E53038;">
+	<!ENTITY st2 "fill:#17181A;">
+	<!ENTITY st3 "enable-background:new    ;">
+	<!ENTITY st4 "fill:#292A2C;">
+]>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="134px"
+	 height="269px" viewBox="0 0 134 269" style="enable-background:new 0 0 134 269;" xml:space="preserve">
+<g id="Rectangle_1_1_" style="&st3;">
+	<g id="Rectangle_1">
+		<g>
+			<polygon style="&st1;" points="0.2,66.5 67,134 67,0 			"/>
+		</g>
+	</g>
+</g>
+<g id="Rectangle_1_copy_1_" style="&st3;">
+	<g id="Rectangle_1_copy">
+		<g>
+			<polygon style="&st0;" points="67,0 67,134 134,66.5 			"/>
+		</g>
+	</g>
+</g>
+<g id="Rectangle_1_copy_2_1_" style="&st3;">
+	<g id="Rectangle_1_copy_2">
+		<g>
+			<polygon style="&st4;" points="0.2,200.5 67,268 67,134 			"/>
+		</g>
+	</g>
+</g>
+<g id="Rectangle_1_copy_3_1_" style="&st3;">
+	<g id="Rectangle_1_copy_3">
+		<g>
+			<polygon style="&st2;" points="67,134 67,268 134,200.5 			"/>
+		</g>
+	</g>
+</g>
+</svg>
